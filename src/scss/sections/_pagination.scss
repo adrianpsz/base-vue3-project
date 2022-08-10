@@ -1,0 +1,27 @@
+.pagination-wrapper {
+  nav {
+    display: inline-block;
+  }
+
+  .pagination {
+
+    .spinner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 1.5rem;
+
+      svg {
+        color: $blue;
+        height: 65%;
+      }
+    }
+  }
+
+  .out-spinner {
+    svg {
+      color: $blue;
+      height: 2rem;
+    }
+  }
+}
